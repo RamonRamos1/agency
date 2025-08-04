@@ -1078,7 +1078,8 @@ section,
 .conocer{
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .btnmark{
