@@ -1038,35 +1038,37 @@ section,
 }
 
 .presentation{
-  height: 500px;
+  background-image: url(/assets/img/utn-marketing-digital.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.presentation div{
-  height: 100%;
-  width: 100%;
+.presentation1{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10%;
 }
 
-.presentation div p{
+.presentation1 h5{
   color: grey;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.presentation img{
-  width: 95%;
-  object-fit: fill;
-  padding-right: 10px;
-  border-radius: 10px;
-  mask-image: linear-gradient(to right, transparent, black 6%);
+.presentation1 h1{
+  padding: 20px;
+  color: #cccccc;
 }
 
-#fondo{
-  background: linear-gradient(to right, black 50%, #cccccc);
+.presentation1 a{
+  padding: 10px;
 }
 
 #service-details{
@@ -1096,6 +1098,7 @@ section,
   background-color:white;
   color: black;
 }
+
 
 /*--------------------------------------------------------------
 # Features Section
