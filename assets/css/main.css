@@ -1099,6 +1099,26 @@ section,
   color: black;
 }
 
+.grid-service{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.ulli li{
+  margin-bottom: 40px;
+  background-color: #cccccc;
+  border-radius: 10px;
+}
+
+.ulli li i{
+  padding-left: 20px;
+}
+
+.ulli li span{
+  padding: 10px;
+  margin-right: 10px;
+}
 
 /*--------------------------------------------------------------
 # Features Section
