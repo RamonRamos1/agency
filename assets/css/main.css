@@ -1041,7 +1041,7 @@ section,
   background-image: url(/assets/img/utn-marketing-digital.jpg);
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 350px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -1080,8 +1080,8 @@ section,
 .conocer{
   display: flex;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .btnmark{
@@ -1119,6 +1119,78 @@ section,
   padding: 10px;
   margin-right: 10px;
 }
+
+.container{
+  padding-bottom: 50px;
+}
+
+#consulta{
+  height: 200px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+#descarga{
+  height: 200px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.nd-tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.preexplanation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 50px;
+}
+
+.explanation{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.explanation img{
+  height: 200px;
+  border-radius: 5px;
+}
+
+.explanation div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.explanation1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.explanation1 img{
+  height: 200px;
+  border-radius: 5px;
+}
+
+.explanation1 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.extraservice{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+}
+
+
 
 /*--------------------------------------------------------------
 # Features Section
