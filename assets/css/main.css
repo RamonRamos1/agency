@@ -1049,6 +1049,38 @@ section,
   align-items: center;
 }
 
+.presentationb{
+  background-image: url(/assets/img/branding-ideas_44fc85e8-f1ac-43be-a272-7a9e8050ae34.webp);
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.presentation1b{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.presentation1b h1{
+  padding: 20px;
+  color: #060606;
+  text-align: center;
+}
+
+.presentation1b h5{
+  color: grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .presentation1{
   display: flex;
   flex-direction: column;
@@ -1061,11 +1093,13 @@ section,
   color: grey;
   padding: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .presentation1 h1{
   padding: 20px;
   color: #cccccc;
+  text-align: center;
 }
 
 .presentation1 a{
