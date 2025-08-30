@@ -1081,6 +1081,38 @@ section,
   text-align: center;
 }
 
+.presentationd{
+  background-image: url(/assets/img/empresa-de-desarrollo-web-en-Barcelona.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.presentation1d{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.presentation1d h1{
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.presentation1d h5{
+  color: #cccccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .presentation1{
   display: flex;
   flex-direction: column;
