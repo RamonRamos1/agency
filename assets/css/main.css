@@ -444,6 +444,7 @@ h6 {
   background-color: var(--background-color);
   font-size: 14px;
   position: relative;
+  background-color: rgb(240, 240, 240);
 }
 
 .footer .footer-top {
@@ -1037,6 +1038,264 @@ section,
   fill: #f3268c;
 }
 
+.presentation{
+  background-image: url(/assets/img/utn-marketing-digital.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.presentationb{
+  background-image: url(/assets/img/branding-ideas_44fc85e8-f1ac-43be-a272-7a9e8050ae34.webp);
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.presentation1b{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.presentation1b h1{
+  padding: 20px;
+  color: #060606;
+  text-align: center;
+}
+
+.presentation1b h5{
+  color: grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.presentationd{
+  background-image: url(/assets/img/empresa-de-desarrollo-web-en-Barcelona.jpg);
+  background-size: cover;
+  background-position: bottom;
+  height: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.presentation1d{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.presentation1d h1{
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.presentation1d h5{
+  color: #cccccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.presentation1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+}
+
+.presentation1 h5{
+  color: grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.presentation1 h1{
+  padding: 20px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.presentation1 a{
+  padding: 10px;
+}
+
+#service-details{
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.conocer{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btnmark{
+  text-decoration: none;
+  padding: 7px;
+  border: 0;
+  margin: 0;
+  border-radius: 4px;
+  background-color: rgb(60, 138, 44);
+  color: white;
+}
+
+.btnmark:hover{
+  background-color:white;
+  color: black;
+}
+
+.grid-service{
+  gap: 40px;
+}
+
+.ulli{
+  display: flex;
+  flex-direction: column;
+}
+
+.ulli li{
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.ulli li i{
+  padding-left: 20px;
+}
+
+.ulli li span{
+  padding-left: 20px;
+}
+
+.ulli li i img{
+  height: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container{
+  padding-bottom: 50px;
+}
+
+#consulta{
+  height: 200px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+#descarga{
+  height: 200px;
+  width: 30%;
+  border-radius: 15px;
+}
+
+.nd-tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.preexplanation{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 50px;
+}
+
+.explanation{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.explanation img{
+  height: 200px;
+  border-radius: 5px;
+}
+
+.explanation div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.explanation1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.explanation1 img{
+  height: 200px;
+  border-radius: 5px;
+}
+
+.explanation1 div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.extraservice{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  padding-bottom: 100px;
+}
+
+.porque{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.porque h2{
+  padding-bottom: 30px;
+}
+
+.icons-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 40px;
+}
+
+.icons{
+  height: 50px;
+}
+
+.lista-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
@@ -1297,7 +1556,7 @@ section,
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
-  margin: 0 30px 0 32px;
+  margin: 0 ser 0 32px;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1513,7 +1772,7 @@ section,
 .service-details .service-box {
   background-color: var(--surface-color);
   padding: 20px;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .service-details .service-box+.service-box {
@@ -1650,7 +1909,8 @@ section,
 .service-details .service-box {
   background-color: var(--surface-color);
   padding: 20px;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
 
 .service-details .service-box+.service-box {
@@ -1778,4 +2038,8 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: green;
+}
+
+@media (max-width: 1280px){
+  
 }
